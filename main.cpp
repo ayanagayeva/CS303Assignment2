@@ -20,10 +20,9 @@ int main() {
   cin >> profVacationDays;
   cin.ignore();
   Professional prof(profName, profEmployeeID, profMonthlySalary,
-                    profVacationDays); // create
-  an instance using the data we have colected fomr the suer
+                    profVacationDays); // create an instance using the data we have colected fomr the suer
       // same process for the non professional employee
-      string nonprofName;
+  string nonprofName;
   int nonprofEmployeeID;
   double nonprofHourlyRate;
   int nonprofHoursWorked;
